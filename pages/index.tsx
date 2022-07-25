@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import utilStyles from '../styles/utils.module.css';
+
+import profilePic from '../public/me.jpg'
 
 export default function Home():any {
   return (
@@ -12,8 +15,17 @@ export default function Home():any {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
+          
           Welcome to richytomy.com!
+
         </h1>
+        <Image
+        src={profilePic}
+        alt="Picture of the author"
+        className={utilStyles.borderCircle}
+        height={144}
+        width={144}
+      />
 
         <p className={styles.description}>
           Richy Tomy is a Software Engineer with a breadth of expertise in various technologies; DevOps, Cloud, AWS, React.js, Typescript, JS, Next.js.
