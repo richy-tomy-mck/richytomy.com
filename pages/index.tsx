@@ -34,19 +34,19 @@ export default function Home():any {
         <div className={styles.grid}>
           <a className={styles.card}>
             <h2>Cloud &rarr;</h2>
-            <p>Architected and developed serverless applications on AWS.</p>
+            <p>Architected and developed serverless applications on AWS Cloud.</p>
           </a>
 
           <a className={styles.card}>
             <h2>DevOps &rarr;</h2>
-            <p>Built CI/CD on Github Actions, AWS Code*, Azure DevOps, Jenkins!</p>
+            <p>Built CI/CD pipelines using Github Actions, AWS Code*, Azure DevOps, Jenkins.</p>
           </a>
 
           <a
             className={styles.card}
           >
             <h2>Front-end &rarr;</h2>
-            <p>Experienced in building applications with React.js, Next.js, Javascript, CSS, HTML</p>
+            <p>Developed web applications with React.js, Next.js, Javascript/Typescript, CSS, HTML.</p>
           </a>
 
           <a
@@ -54,7 +54,7 @@ export default function Home():any {
           >
             <h2>Back-end &rarr;</h2>
             <p>
-              Experience building backends in Python, Node.js using FastAPI, Django, GraphQL.
+              Developed API backends in Python, Node.js using FastAPI, Django, GraphQL, DynamoDB, AWS RDS etc.
             </p>
           </a>
         </div>
