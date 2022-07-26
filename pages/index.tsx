@@ -19,8 +19,8 @@ export default function Home():any {
         src={profilePic}
         alt="Picture of the author"
         className={utilStyles.borderCircle}
-        height={144}
-        width={144}
+        height={200}
+        width={200}
       />
 
 <h1 className={styles.title}>       
@@ -52,7 +52,7 @@ export default function Home():any {
           <a
             className={styles.card}
           >
-            <h2>back-end &rarr;</h2>
+            <h2>Back-end &rarr;</h2>
             <p>
               Experience building backends in Python, Node.js using FastAPI, Django, GraphQL.
             </p>
@@ -62,7 +62,7 @@ export default function Home():any {
 
       <footer className={styles.footer}>
 
-          Created by Richy Tomy 2022
+        Richy Tomy 2022
 
 
       </footer>
