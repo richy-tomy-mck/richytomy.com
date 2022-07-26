@@ -14,11 +14,7 @@ export default function Home():any {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          
-          Welcome to richytomy.com!
 
-        </h1>
         <Image
         src={profilePic}
         alt="Picture of the author"
@@ -27,8 +23,12 @@ export default function Home():any {
         width={144}
       />
 
+<h1 className={styles.title}>       
+          Richy Tomy
+        </h1>
+
         <p className={styles.description}>
-          Richy Tomy is a Software Engineer with a breadth of expertise in various technologies; DevOps, Cloud, AWS, React.js, Typescript, JS, Next.js.
+          Richy Tomy is a Software Engineer with expertise in DevOps, Cloud, Application Architecture.
         </p>
 
         <div className={styles.grid}>
