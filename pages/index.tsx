@@ -28,7 +28,7 @@ export default function Home():any {
         </h1>
 
         <p className={styles.description}>
-          Richy Tomy is a Software Engineer with expertise in DevOps, Cloud, Application Architecture.
+          Richy Tomy is a Software Engineer with expertise in DevOps, Cloud & Application architecture.
         </p>
 
         <div className={styles.grid}>
