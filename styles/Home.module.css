@@ -89,10 +89,10 @@
   max-width: 300px;
   background-color: #2a2e35;
   transform: translateY(0);
-  --bg-color: #B8F9D3;
-  --bg-color-light: #e2fced;
+  --bg-color: #f9b8c8;
+  --bg-color-light: #fce2e4;
   --text-color-hover: #ffffff;;
-  --box-shadow-color: rgba(184, 249, 211, 0.48);
+  --box-shadow-color: rgba(184, 196, 249, 0.48);
 }
 
 .card:hover,
@@ -103,8 +103,8 @@
 
 .card:hover {
   transform: translateY(-5px) scale(1.005) translateZ(0);
-  box-shadow: 0 24px 36px rgba(0,0,0,0.11),
-    0 24px 46px var(--box-shadow-color);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.11),
+    0 6px 24px var(--box-shadow-color);
 }
 
 .card:hover .overlay {
