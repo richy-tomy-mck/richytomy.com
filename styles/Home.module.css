@@ -3,6 +3,10 @@
   background-color: #12181b;
 }
 
+.homeMenu {
+  color: #12181b;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
