@@ -5,7 +5,7 @@
     height: 50px;
     align-items: center;
     background-color: #000000;
-    opacity: 0.5;
+    opacity: 0.75;
     width: 100%;
     position: absolute;
     margin-left: -32px;
@@ -17,8 +17,23 @@
     color: #ffff;
   }
 
+.active {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 1.5rem;
+    color: #00ffc8;
+    border-bottom: 5px solid #00ffc8;
+  }
 
-  .menuItem:hover {
+  .nonActive {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 1.5rem;
+    color: #ffff;
+  }
+
+
+  .nonActive:hover {
     opacity: 1;
     color: #00ffc8;
   }
