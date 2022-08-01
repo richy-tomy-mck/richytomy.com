@@ -14,23 +14,11 @@
     margin: 0;
     line-height: 1.15;
     font-size: 1.5rem;
-    color: #b2bece;
-  }
-
-.home {
-    margin: 0;
-    line-height: 1.15;
-    font-size: 1.5rem;
-    color: #000000 !important;
-  }
-
-.home:hover {
-    margin: 0;
-    line-height: 1.15;
-    font-size: 1.5rem;
     color: #ffff;
   }
+
 
   .menuItem:hover {
-    color: #ffff;
+    opacity: 1;
+    color: #00ffc8;
   }
