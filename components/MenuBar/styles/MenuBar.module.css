@@ -1,12 +1,12 @@
 .menuBar {
     display: flex;
-    gap: 100px;
+    gap: 10vw;
     justify-content: center;
     height: 50px;
     align-items: center;
     background-color: #000000;
     opacity: 0.75;
-    width: 100%;
+    width: 100vw;
     position: absolute;
     margin-left: -32px;
 }

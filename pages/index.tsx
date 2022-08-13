@@ -13,6 +13,7 @@ export default function Home():any {
       <Head>
         <title>Richy Tomy</title>
         <meta name="description" content="Richy Tomy's personal website" />
+        <meta name="viewport" content="width=device-width" maximum-scale="1.5"/>
       </Head>
 
       <main className={styles.main}>
